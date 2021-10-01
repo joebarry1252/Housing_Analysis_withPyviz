@@ -28,9 +28,9 @@ This will allow for a more "apples-to-apples" price comparison for purchasing a 
 
 To figure out which neighborhoods are the most expensive, we will calculate each neighborhood's average sale price. Arrange the prices in descending order to find the top ten neighborhoods based on average price and create a bar chart for the results.
 
+
 #### Comparing Cost to Purchase Versus Rental Income
-
-
+Here, create an interactive chart with a dropdown filter to browse by neighborhood using hvplot. The visualization will feature a comparison of avg. price per square foot vs average monthly rent. Use the groupby function from hvplot to create the dropdown menu for the neighborhoods. 
 
 
 #### Neighborhood Map
