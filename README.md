@@ -30,15 +30,28 @@ To figure out which neighborhoods are the most expensive, we will calculate each
 
 
 #### Comparing Cost to Purchase Versus Rental Income
+
 Here, create an interactive chart with a dropdown filter to browse by neighborhood using hvplot. The visualization will feature a comparison of avg. price per square foot vs average monthly rent. Use the groupby function from hvplot to create the dropdown menu for the neighborhoods. 
 
 
 #### Neighborhood Map
 
+Using the neighborhood coordinates, we will create an interactive map that shows the average prices by neighborhood. Use the mapbox API (which you will your API key from mapbox to create) to build this visualization.
 
 
 ####  Cost Analysis
 
+Build the following plots using plotly express:
+
+1) Parallel Coordinates Plot
+
+2) Parallel Categories Plot
+
+3) Sunburst Plot
+
+These can be used to filter and analyze different factors related to each neighborhood's housing prices.
 
 
 ### Dashboard
+
+Having coded the calculations and analysis, now use the Panel library to create one interactivate dashboard for all of the visualizations. 
